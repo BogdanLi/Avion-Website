@@ -1,0 +1,42 @@
+.navbar-nav a{
+    color: #726E8D;
+}
+
+#heroSection{
+    max-width: 100%;
+    background-color: #2A254B;
+    color: white;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+
+.button{
+    padding: 16px 32px;
+    border: 0px;
+}
+.button-dark-primary{
+    background-color: #494465;
+    color: white;
+}
+.dark-primary{
+    color: #2A254B;
+}
+
+#newContainer img{
+    max-width: 100%;
+}
+
+@media (max-width:1224px) {
+    .hero-img img{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    
+}

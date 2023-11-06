@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Clash Display Extralight";
+    src: url("../fonts/ClashDisplay-Extralight.woff2");
+}
+@font-face {
+    font-family: "Clash Diplay Light";
+    src: url("../fonts/ClashDisplay-Light.woff2");
+}
+@font-face {
+    font-family: "Clash Display Regular";
+    src: url("../fonts/ClashDisplay-Regular.woff2");
+}
+@font-face {
+    font-family: "Clash Display Medium";
+    src: url("../fonts/ClashDisplay-Medium.woff2");
+}
+@font-face {
+    font-family: "Clash Display Semibold";
+    src: url("../fonts/ClashDisplay-Semibold.woff2");
+}
+@font-face {
+    font-family: "Clash Display Bold";
+    src: url("../fonts/ClashDisplay-Bold.woff2");
+}
+
+*{
+    font-family: 'Clash Display Regular';
+    line-height: 150%;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 14px;
+}
+p{
+    font-size: 16px;
+}
