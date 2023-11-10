@@ -83,13 +83,14 @@
         <div class="container">
             <div class="d-flex justify-content-between" id="heroSection">
                 <div class="hero-text">
-                    <div class="w-75">
+                    <div>
                         <h2 class="mb-5">The furniture brand for the future, with timeless designs</h2>
-                        <button class="button button-dark-primary">View collection</button>
+                        <button class="button button-dark-primary" id="desktopBtn">View collection</button>
                     </div>
                     <p>A new era in eco friendly furniture with Avelon, the French luxury retail brand
                         with nice fonts, tasteful colors and a beautiful way to display things digitally
                         using modern web technologies.</p>
+                    <button class="button button-dark-primary" id="mobileBtn">View collection</button>
                 </div>
                 <div class="hero-img flex-shrink-1">
                     <img src="img/hero-img.png" alt="">
@@ -160,8 +161,127 @@
                     </div>
                 </div>
             </div>
+            <div class="w-100 text-center">
+                <button class="button button-dark-grey">View collection</button>
+            </div>
         </div>
     </div>
+    <!-- Popular products -->
+    <div class="container-fluid my-5">
+        <div class="container">
+            <h2>Our popular products</h2>
+            <div class="row">
+                <div class="col col-lg-6 d-flex flex-column gap-3 flex-shrink-1">
+                    <img src="img/popular-suede.png" alt="">
+                    <div>
+                        <h4>The Poplar suede sofa</h4>
+                        <p>£980</p>
+                    </div>
+                </div>
+                <div class="col col-lg-3 d-flex flex-column gap-3 flex-shrink-1">
+                    <img src="img/new-dandy-chair.png" alt="">
+                    <div>
+                        <h4>The Dandy Chair</h4>
+                        <p>£250</p>
+                    </div>
+                </div>
+                <div class="col col-lg-3 d-flex flex-column gap-3 flex-shrink-1">
+                    <img src="img/popular-dandy.png" alt="">
+                    <div>
+                        <h4>The Dandy Chair</h4>
+                        <p>£250</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 text-center">
+                <button class="button button-dark-grey">View collection</button>
+            </div>
+        </div>
+    </div>
+    <!-- Sign up -->
+    <div class="container-fluid my-5" id="signUp">
+        <div class="container d-flex flex-column align-items-center">
+            <h1>Join the club and get the benefits</h1>
+            <p>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+            <div class="form-template d-flex">
+                <input class="flex-shrink-1" type="email" placeholder="your@email.com">
+                <button class="button button-dark-primary flex-shrink-1">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <!-- Get in touch -->
+    <div class="container-fluid my-5" id="getInTouch">
+        <div class="container d-flex">
+            <div class="d-flex flex-column justify-content-between">
+                <div class="d-flex flex-column gap-3">
+                    <h3>From a studio in London to a global brand with over 400 outlets</h3>
+                    <p>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. </p>
+                    <p>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
+                </div>
+                <div>
+                    <button class="button button-dark-grey">Get in touch</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/git-img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid mt-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-between">
+                        <div>
+                            <h5><a href="">Menu</a></h5>
+                            <h6><a href="">New arrivals</a></h6>
+                            <h6><a href="">Best sellers</a></h6>
+                            <h6><a href="">Revcently viewed</a></h6>
+                            <h6><a href="">Popular this week</a></h6>
+                            <h6><a href="">All products</a></h6>
+                        </div>
+                        <div>
+                            <h5><a href="">Categories</a></h5>
+                            <h6><a href="">Crockery</a></h6>
+                            <h6><a href="">Furniture</a></h6>
+                            <h6><a href="">Homeware</a></h6>
+                            <h6><a href="">Plant pots</a></h6>
+                            <h6><a href="">Chairs</a></h6>
+                        </div>
+                        <div>
+                            <h5><a href="">Our company</a></h5>
+                            <h6><a href="">About us</a></h6>
+                            <h6><a href="">Vacancies</a></h6>
+                            <h6><a href="">Contact us</a></h6>
+                            <h6><a href="">Privacy</a></h6>
+                            <h6><a href="">Returns policy</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-6 px-5">
+                        <h5>Join our mailing list</h5>
+                        <div class="form-template d-flex">
+                            <input class="flex-shrink-1 w-100" type="email" placeholder="your@email.com">
+                            <button class="button button-dark-primary w-25">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <h6>Copyright 2022 Avion LTD</h6>
+                    <div class="d-flex gap-2" id="footerIcons">
+                        <a href=""><img src="img/footer-in.svg" alt=""></a>
+                        <a href=""><img src="img/footer-fb.svg" alt=""></a>
+                        <a href=""><img src="img/footer-inst.svg" alt=""></a>
+                        <a href=""><img src="img/footer-skp.svg" alt=""></a>
+                        <a href=""><img src="img/footer-twt.svg" alt=""></a>
+                        <a href=""><img src="img/footer-pint.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
+
 
 </html>
